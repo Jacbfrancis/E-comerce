@@ -5,7 +5,7 @@ h1{
 }
 
 .wrapper p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: lighter;
     line-height: 1.5;
     color: #fcfcfcb5;
@@ -77,6 +77,14 @@ section{
 }
 
 @media (min-width: 800px) {
+
+    h1{
+        font-size: 4rem;
+   }
+
+    .wrapper p{
+        font-size: 1.5rem;
+    }
 
     .hamburger-menu{
         display: none;
