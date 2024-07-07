@@ -195,6 +195,26 @@ section{
     padding: 0.6rem 1.5rem;
 }
 
+.contact{
+    background-color: #0B0B27;
+    padding: 2rem 1rem 3rem;
+    text-align: left;
+}
+
+contact p {
+    font-size: 0.3rem;
+    opacity: 0.3;
+}
+
+.social-icons{
+    padding: 1rem 0;
+}
+
+.social-icons img{
+    margin: 0 0.2rem;
+}
+
+
 @media (min-width: 800px) {
 
     h1{
