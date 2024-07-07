@@ -78,6 +78,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     /*border: 0.1px solid #0B0B27;
     border-style: none none solid;*/
 }
@@ -87,7 +88,7 @@ section{
     border-style: none none solid none;
 }
 
-h3{
+.filter-div{
     display: none;
 }
 
@@ -143,8 +144,9 @@ h3{
         width: 75%;
     }
 
-    h3{
-        display: inline-block;
+    .filter-div{
+        display: flex;
+        justify-content: center;
     }
 
 }
