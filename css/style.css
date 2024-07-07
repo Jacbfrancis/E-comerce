@@ -44,8 +44,16 @@ nav ul{
     display: none;
 }
 
+a{
+    color: #FCFCFC;
+    text-decoration: none;
+}a:hover{
+    text-decoration: underline;
+}
+
 nav .cart{
     display: none;
+    cursor: pointer;
 }
 
 header{
@@ -74,7 +82,7 @@ header{
 
 section{
     color: #1F1F3B;
-    padding: 2rem;
+    padding: 2rem 3rem;
     text-align: left;
 }
 
@@ -101,7 +109,7 @@ section{
 }
 
 .middle-container{
-    padding: 0 1rem;
+    padding: 0 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3rem 1rem;
@@ -142,8 +150,49 @@ section{
     color: #FCFCFC;
 }
 
-.product-card button img{
-    margin-right: 5px;
+.btm-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #ededf1;
+    color: #0B0B27;
+    margin: 3rem 1rem;
+    padding: 0.5rem;
+}
+
+.btm-container > :nth-child(2){
+    background-color: #0B0B27;
+    color: #FCFCFC;
+}
+
+.results{
+    opacity: 0.5;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-text{
+    background-color: #0B0B27;
+    background-image: url('../images/footer-image.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FCFCFC;
+    padding: 3rem 1rem;
+    text-align: left;
+}
+
+.shop-now h2{
+    margin-bottom: 2rem;
+}
+
+.shop-now button{
+    color: #0B0B27;
+    padding: 0.6rem 1.5rem;
 }
 
 @media (min-width: 800px) {
@@ -205,6 +254,10 @@ section{
 
     .middle-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .shop-now{
+        width: 40%;
     }
 
 }
