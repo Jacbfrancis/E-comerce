@@ -3,6 +3,10 @@ h1{
     margin: 0 0 2rem;
 }
 
+h2{
+    font-size: 2rem;
+}
+
 .wrapper p{
     font-weight: lighter;
     line-height: 1.5;
@@ -118,7 +122,6 @@ section{
 }
 
 .product-card p{
-    font-size: 0.5rem;
     margin: 0.5rem 0;
 }
 
@@ -127,12 +130,20 @@ section{
     color: #1F1F3B;
     width: 85%;
     padding: 0.5rem 0;
+    margin: 1rem 0;
     border-style: none;
     border-radius: 0.2rem;
     font-weight: bolder;
+    box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -9px rgba(0,0,0,0.75);
 } .product-card button:hover{
     background-color: #1F1F3B;
     color: #FCFCFC;
+}
+
+.product-card button img{
+    margin-right: 1rem;
 }
 
 @media (min-width: 800px) {
