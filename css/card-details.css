@@ -1,0 +1,65 @@
+.checkout-form span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.checkout-form h2{
+    margin-bottom: 0.8rem;
+}
+
+.checkout-form{
+    padding: 2rem;
+    text-align: left;
+}
+
+form h3{
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+form p{
+    margin: 0.5rem 0;
+}
+
+.form-section{
+    margin-top: 2rem;
+}
+
+input{
+    padding: 1rem;
+    margin: 0.5rem auto;
+}
+
+.full{
+    width: 100%;
+}
+
+.half{
+    width: 48%;
+}
+
+.delivery{
+    border: 1px solid #1F1F3B;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.payment-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-summary h3{
+    margin-left: 2rem;
+}
+
+@media (min-width: 800px){
+
+    .payment-section{
+        display: flex;
+        justify-content: center;
+        align-items: ceter;
+    }
+
+}
