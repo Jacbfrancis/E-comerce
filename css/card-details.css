@@ -54,12 +54,21 @@ input{
     margin-left: 2rem;
 }
 
+.order-summary .items-name h3{
+    margin: 0;
+}
+
 @media (min-width: 800px){
 
     .payment-section{
         display: flex;
         justify-content: center;
         align-items: ceter;
+    }
+
+    .checkout{
+        width: 50%;
+        margin: 1rem auto;
     }
 
 }
