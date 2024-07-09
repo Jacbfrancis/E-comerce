@@ -31,7 +31,7 @@ body{
 }
 
 .order{
-    margin: 2rem 0;
+    margin: 2rem 0 1rem;
 }
 
 .order-details{
@@ -101,6 +101,22 @@ select{
     margin-bottom: 1rem;
 }
 
+.options{
+    text-align: left;
+    padding: 0rem 2rem;
+}
+
+.options-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2rem 0 5rem;
+}
+
+.third{
+    display: none;
+}
+
 
 @media (min-width: 800px) {
 
@@ -119,6 +135,18 @@ select{
         justify-content: center;
         align-items: top;
         padding: 3rem 0;
+    }
+
+    .options{
+        padding: 0rem 5.65rem;
+    }
+
+    .options-container{
+        grid-template-columns: 1fr 1fr 1fr 3fr;
+    }
+
+    .third{
+        display: inline-block;
     }
     
 }
